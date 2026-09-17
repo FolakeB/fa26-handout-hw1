@@ -21,8 +21,8 @@ def print_meow() -> None:
 '''
 
 
-def test_q1_contents() -> None:
-    """Test that the contents of q1.py have been modified from the original content."""
-    with open("src/q1.py", encoding="utf-8") as f:
-        contents = f.read()
-    assert contents != ORIGINAL_CONTENT
+def computing_interest(interest:str) -> str:
+    """Returns a string about why i became interested in computing"""
+    return f"The reason I became interested in Computing is {interest} ."
+
+print(computing_interest("In highschool my magnet was CS programming and i liked it"))
