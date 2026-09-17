@@ -15,6 +15,6 @@ Pawtograder setup working, and making a successful submission."""
 
 def computing_interest(interest:str) -> str:
     """Returns a string about why i became interested in computing"""
-    return f"The reason I became interested in Computing is {interest} ."
+    return f"The reason I became interested in Computing is {interest} !"
 
 print(computing_interest("In highschool my magnet was CS programming and i liked it"))
