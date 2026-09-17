@@ -13,6 +13,8 @@ Getting your setup ready is the hardest part of the semester.
 This question is designed to give you points for getting your GitHub and 
 Pawtograder setup working, and making a successful submission."""
 
-def print_meow() -> None:
-    """Prints 'meow' to the console."""
-    print("meow")
+def computing_interest(interest:str) -> str:
+    """Returns a string about why i became interested in computing"""
+    return f"The reason I became interested in Computing is {interest} ."
+
+print(computing_interest("In highschool my magnet was CS programming and i liked it"))
